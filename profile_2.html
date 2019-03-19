@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Profile | Eshop TZ</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+    <nav class="navbar-default navbar-static-side" role="navigation">
+        <div class="sidebar-collapse">
+            <ul class="nav metismenu" id="side-menu">
+                <li class="nav-header">
+                    <div class="dropdown profile-element">
+                        <img alt="image" class="rounded-circle img-fluid border" style="width: 50px;"
+                             src="img/face.png"/>
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <span class="block m-t-xs font-bold">Bonaventure</span>
+                            <span class="text-muted text-xs block">Business Manager <b class="caret"></b></span>
+                        </a>
+                        <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                            <li><a class="dropdown-item" href="profile_2.html">Profile</a></li>
+                            <li><a class="dropdown-item" href="messages.html">Messages</a></li>
+                            <li class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="login.html">Logout</a></li>
+                        </ul>
+                    </div>
+                    <div class="logo-element">
+                        ESHOP
+                    </div>
+                </li>
+                <li>
+                    <a href="index.html"><i class="fa fa-th-large"></i> <span
+                            class="nav-label">Dashboard</span></a>
+                </li>
+                <li class="active">
+                    <a href="dashboard_1.html"><i class="fa fa-cart-arrow-down"></i> <span
+                            class="nav-label">Products</span>
+                        <span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li><a href="products.html">All Products</a></li>
+                        <li class="active"><a href="product-stock.html">Product Stock</a></li>
+                        <li><a href="product-brands.html">Product Brands</a></li>
+                        <li><a href="product-categories.html">Product Categories</a></li>
+                        <li><a href="product-categories.html">Product Subcategories</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="discount-coupon.html"><i class="fa fa-tag"></i> <span
+                            class="nav-label">Discount Coupon</span> </a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-star"></i> <span class="nav-label">Product Reviews</span>
+                        <span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li><a href="product-reviews.html">View All Reviews</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-truck"></i> <span
+                            class="nav-label">Shipping</span>
+                        <span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li><a href="shipping-charges.html">Shipping Charges</a></li>
+                        <li><a href="shipping-region.html">Add Region</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="manage-sales.html"><i class="fa fa-bar-chart-o"></i> <span
+                            class="nav-label">Manage Sales</span></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-money"></i> <span class="nav-label">Cash Payments</span></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-user-plus"></i> <span class="nav-label">Vendors </span> <span
+                            class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level collapse">
+                        <li><a href="vendors.html">All Vendors</a></li>
+                        <li><a href="vendor-type.html">Vendors Type</a></li>
+                        <li><a href="vendors-payments.html">Vendors Payments</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-users"></i> <span class="nav-label">Customers</span></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-envelope"></i> <span class="nav-label">Messages</span>
+                        <span class="label label-warning float-right">22/15</span></a>
+                    <ul class="nav nav-second-level collapse">
+                        <li><a href="#">Inbox</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-newspaper-o"></i> <span class="nav-label">Newsletter</span></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-files-o"></i> <span class="nav-label">Reports</span><span
+                            class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level collapse">
+                        <li><a href="product-stock.html">Product Stock</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-user-secret"></i> <span
+                            class="nav-label">Manage Staff</span>
+                        <span class="fa arrow"></span>
+                    </a>
+                    <ul class="nav nav-second-level collapse">
+                        <li><a href="staff.html">All Staff</a></li>
+                        <li><a href="staff-permissions.html">Staff Permission</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-briefcase"></i> <span
+                            class="nav-label">Business Settings</span> </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="page-wrapper" class="gray-bg">
+        <div class="row border-bottom">
+            <nav class="navbar navbar-static-top white-bg" role="navigation" style="margin-bottom: 0">
+                <div class="navbar-header">
+                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i>
+                    </a>
+                    <form role="search" class="navbar-form-custom" action="search_results.html">
+                        <div class="form-group">
+                            <input type="text" placeholder="Search for something..." class="form-control"
+                                   name="top-search" id="top-search">
+                        </div>
+                    </form>
+                </div>
+                <ul class="nav navbar-top-links navbar-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
+                            <i class="fa fa-envelope"></i> <span class="label label-warning">16</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-messages">
+                            <li>
+                                <div class="dropdown-messages-box">
+                                    <a class="dropdown-item float-left" href="profile.html">
+                                        <img alt="image" class="rounded-circle" src="img/a7.jpg">
+                                    </a>
+                                    <div>
+                                        <small class="float-right">46h ago</small>
+                                        <strong>Mike Loreipsum</strong> started following <strong>Monica Smith</strong>.
+                                        <br>
+                                        <small class="text-muted">3 days ago at 7:58 pm - 10.06.2014</small>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="dropdown-divider"></li>
+                            <li>
+                                <div class="dropdown-messages-box">
+                                    <a class="dropdown-item float-left" href="profile.html">
+                                        <img alt="image" class="rounded-circle" src="img/a4.jpg">
+                                    </a>
+                                    <div>
+                                        <small class="float-right text-navy">5h ago</small>
+                                        <strong>Chris Johnatan Overtunk</strong> started following <strong>Monica
+                                        Smith</strong>. <br>
+                                        <small class="text-muted">Yesterday 1:21 pm - 11.06.2014</small>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="dropdown-divider"></li>
+                            <li>
+                                <div class="dropdown-messages-box">
+                                    <a class="dropdown-item float-left" href="profile.html">
+                                        <img alt="image" class="rounded-circle" src="img/profile.jpg">
+                                    </a>
+                                    <div>
+                                        <small class="float-right">23h ago</small>
+                                        <strong>Monica Smith</strong> love <strong>Kim Smith</strong>. <br>
+                                        <small class="text-muted">2 days ago at 2:30 am - 11.06.2014</small>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="dropdown-divider"></li>
+                            <li>
+                                <div class="text-center link-block">
+                                    <a href="mailbox.html" class="dropdown-item">
+                                        <i class="fa fa-envelope"></i> <strong>Read All Messages</strong>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
+                            <i class="fa fa-bell"></i> <span class="label label-primary">8</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-alerts">
+                            <li>
+                                <a href="mailbox.html" class="dropdown-item">
+                                    <div>
+                                        <i class="fa fa-envelope fa-fw"></i> You have 16 messages
+                                        <span class="float-right text-muted small">4 minutes ago</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="dropdown-divider"></li>
+                            <li>
+                                <a href="profile.html" class="dropdown-item">
+                                    <div>
+                                        <i class="fa fa-twitter fa-fw"></i> 3 New Followers
+                                        <span class="float-right text-muted small">12 minutes ago</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="dropdown-divider"></li>
+                            <li>
+                                <a href="grid_options.html" class="dropdown-item">
+                                    <div>
+                                        <i class="fa fa-upload fa-fw"></i> Server Rebooted
+                                        <span class="float-right text-muted small">4 minutes ago</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="dropdown-divider"></li>
+                            <li>
+                                <div class="text-center link-block">
+                                    <a href="notifications.html" class="dropdown-item">
+                                        <strong>See All Alerts</strong>
+                                        <i class="fa fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <li>
+                        <a href="login.html">
+                            <i class="fa fa-sign-out"></i> Log out
+                        </a>
+                    </li>
+                </ul>
+
+            </nav>
+        </div>
+        <div class="row wrapper border-bottom white-bg page-heading">
+            <div class="col-lg-10">
+                <h2>Profile</h2>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="dashboard_1.html">Home</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a>Users</a>
+                    </li>
+                    <li class="breadcrumb-item active">
+                        <strong>Profile</strong>
+                    </li>
+                </ol>
+            </div>
+            <div class="col-lg-2">
+
+            </div>
+        </div>
+        <div class="wrapper wrapper-content animated fadeInRight">
+
+
+            <div class="row m-b-lg m-t-lg">
+                <div class="col-md-6">
+
+                    <div class="profile-image">
+                        <img src="img/face.png" class="rounded-circle circle-border m-b-md" alt="profile">
+                    </div>
+                    <div class="profile-info">
+                        <div class="">
+                            <div>
+                                <h2 class="no-margins">
+                                    Bona Venture
+                                </h2>
+                                <h4>Business Manager</h4>
+                                <small>
+                                    There are many variations of passages of Lorem Ipsum available, but the majority
+                                    have suffered alteration in some form Ipsum available.
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <table class="table small m-b-xs">
+                        <tbody>
+                        <tr>
+                            <td>
+                                <strong>142</strong> Orders
+                            </td>
+                            <td>
+                                <strong>22</strong> Messages
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <strong>61</strong> Reviews
+                            </td>
+                            <td>
+                                <strong>54</strong> Payments
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <strong>154</strong> Categories
+                            </td>
+                            <td>
+                                <strong>32</strong> Tickets
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-3">
+                    <small>Sales in last 24h</small>
+                    <h2 class="no-margins">206 480</h2>
+                    <div id="sparkline1"></div>
+                </div>
+
+
+            </div>
+            <div class="row">
+
+                <div class="col-lg-3">
+                    <div class="ibox">
+                        <div class="ibox-content">
+                            <h3>About Bona Venture</h3>
+
+                            <p class="small">
+                                There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered alteration in some form, by injected humour, or randomised words which don't.
+                                <br/>
+                                <br/>
+                                If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                                anything embarrassing
+                            </p>
+
+                            <p class="small font-bold">
+                                <span><i class="fa fa-circle text-info"></i> Online status</span>
+                            </p>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-lg-3">
+                    <div class="ibox">
+                        <div class="ibox-content">
+                            <h3>Followers and friends</h3>
+                            <p class="small">
+                                If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                                anything embarrassing
+                            </p>
+                            <div class="user-friends">
+                                <a href=""><img alt="image" class="rounded-circle" src="img/a3.jpg"></a>
+                                <a href=""><img alt="image" class="rounded-circle" src="img/a1.jpg"></a>
+                                <a href=""><img alt="image" class="rounded-circle" src="img/a2.jpg"></a>
+                                <a href=""><img alt="image" class="rounded-circle" src="img/a4.jpg"></a>
+                                <a href=""><img alt="image" class="rounded-circle" src="img/a5.jpg"></a>
+                                <a href=""><img alt="image" class="rounded-circle" src="img/a6.jpg"></a>
+                                <a href=""><img alt="image" class="rounded-circle" src="img/a7.jpg"></a>
+                                <a href=""><img alt="image" class="rounded-circle" src="img/a8.jpg"></a>
+                                <a href=""><img alt="image" class="rounded-circle" src="img/a2.jpg"></a>
+                                <a href=""><img alt="image" class="rounded-circle" src="img/a1.jpg"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer">
+            <div class="float-right">
+                Developed by <strong><a href="http://devdimensions.com" target="_blank">DevDimensions</a></strong>
+            </div>
+            <div>
+                <strong>Copyright</strong> Eshoptz &copy; 2014-2019
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- Mainly scripts -->
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+<!-- Custom and plugin javascript -->
+<script src="js/inspinia.js"></script>
+<script src="js/plugins/pace/pace.min.js"></script>
+
+<!-- Sparkline -->
+<script src="js/plugins/sparkline/jquery.sparkline.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+
+
+        $("#sparkline1").sparkline([34, 43, 43, 35, 44, 32, 44, 48], {
+            type: 'line',
+            width: '100%',
+            height: '50',
+            lineColor: '#1ab394',
+            fillColor: "transparent"
+        });
+
+
+    });
+</script>
+
+</body>
+
+</html>

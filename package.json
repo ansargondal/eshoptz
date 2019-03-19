@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-header": "^2.0.5",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemap": "^1.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "gulp-watch": "^5.0.1",
+    "jquery": "^3.2",
+    "laravel-mix": "^2.0",
+    "lodash": "^4.17.5",
+    "popper.js": "^1.12",
+    "vue": "^2.5.7"
+  },
+  "dependencies": {}
+}
